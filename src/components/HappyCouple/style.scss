@@ -1,0 +1,102 @@
+.happyCoupleWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .happyCoupleContentWrapper {
+    width: 90%;
+    position: relative;
+    top: -50px;
+    border-radius: 20px;
+    background-color: #fff;
+    min-height: 100px;
+    box-shadow: 0 15px 25px rgba(255, 192, 203, 0.487);
+
+    .happyCoupleTitle {
+      color: #b70b9d;
+      text-align: center;
+      margin-top: 36px;
+      font-weight: 600;
+    }
+
+    .happyCoupleSubTitle {
+      line-height: 1.2;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      padding: 0 20px;
+      font-size: 12px;
+      color: #999999;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .coupleWrapper {
+      display: flex;
+      justify-content: center;
+
+      .coupleItem {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 30px 0;
+
+        .nameValue {
+          margin-top: 24px;
+          font-size: 24px;
+          color: #b70b9d;
+        }
+
+        .childOf {
+          color: #4d4d4d8d;
+          font-family: sans-serif;
+          font-size: 13px;
+          font-weight: 100 !important;
+          margin: 0px 0 13px;
+        }
+
+        .parents {
+          @extend .childOf;
+          color: #4d4d4d;
+          & span {
+            margin: 0 10px;
+          }
+        }
+
+        .messengers {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+
+          & a {
+            display: flex;
+          }
+
+          & svg {
+            cursor: pointer;
+          }
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        flex-direction: column;
+        gap: 0px;
+      }
+    }
+
+    .ourStory {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      margin: 30px 0 40px;
+      & a {
+        background-color: #b70b9d;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 30px 3px;
+        border-radius: 10px;
+      }
+    }
+  }
+}

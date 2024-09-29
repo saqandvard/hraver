@@ -6,11 +6,15 @@ function Header() {
   return (
     <div className='headerWrapper'>
       <div className='texts'>
-        <p className='heaterText'>Տէր Քրիստոս</p>
+        <p className='heaterText' id='top'>
+          Տէր Քրիստոս
+        </p>
         <p className='heaterText'>
           Քո օրհնությամբ դու մեզ միավորեցիր սուրբ ամուսնության մեջ
         </p>
-        <Frame text='S & V' />
+        <div className='frameWr'>
+          <Frame text='S & V' />
+        </div>
       </div>
       <img className='bgImage' src={bg} alt='bg' />
       <p className='dateValue'>
