@@ -4,7 +4,6 @@ import ceremony from '../../assets/images/ceremony.png';
 import party from '../../assets/images/party.png';
 import weddingRing from '../../assets/images/wedding-ring.png';
 import dinnerTable from '../../assets/images/dinner-table.png';
-import map from '../../assets/images/Map.png';
 
 interface CountdownRendererProps {
   days: number;
