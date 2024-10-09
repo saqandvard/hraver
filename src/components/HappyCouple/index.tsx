@@ -8,10 +8,10 @@ function HappyCouple() {
   return (
     <div className='happyCoupleWrapper'>
       <div className='happyCoupleContentWrapper'>
-        <p className='happyCoupleTitle'>Հանդիպեք երջանիկ զույգին</p>
+        <p className='happyCoupleTitle'>Սպասում ենք Ձեզ մեր հարսանիքին</p>
         <p className='happyCoupleSubTitle'>
-          Փառք Հիսուս Քրիստոս-ին, ով ստեղծել է արարածներ զույգերով: Հիսուս
-          Քրիստոս, խնդրում եմ ընդունիր և օրհնիր մեզ
+          Սիրով հրավիրում ենք Ձեզ կիսելու մեզ հետ մեր կյանքի կարևոր և հիշարժան
+          օրը
         </p>
 
         <div className='coupleWrapper'>

@@ -23,26 +23,26 @@ const CountdownRenderer = ({
     <div className='countdownWrapper'>
       <div>
         <h1>{zeroPad(days)}</h1>
-        <span>H</span>
+        <span>Օր</span>
       </div>
       <div>
         <h1>{zeroPad(hours)}</h1>
-        <span>D</span>
+        <span>Ժամ</span>
       </div>
       <div>
         <h1>{zeroPad(minutes)}</h1>
-        <span>M</span>
+        <span>Րոպե</span>
       </div>
       <div>
         <h1>{zeroPad(seconds)}</h1>
-        <span>S</span>
+        <span>Վայրկյան</span>
       </div>
     </div>
   );
 };
 
 function GettingMarried() {
-  const targetDate = new Date('2024-10-12T00:00:00');
+  const targetDate = new Date('2024-10-12T17:30:00');
 
   return (
     <div className='gettingMarriedWrapper'>
@@ -79,7 +79,7 @@ function GettingMarried() {
           <img src={party} alt='party' />
           <img className='ic' src={dinnerTable} alt='Dinner Table' />
           <p className='type'>Հարսանեկան խնջույք</p>
-          <p className='time'>18:00 - 24:00</p>
+          <p className='time'>17:30 - 24:00</p>
           <p className='place'>Էլինար ռեստորան</p>
           <p className='placeInfo'>37RV+X2, Aknashen</p>
           <div className='mapBtns'>
@@ -105,7 +105,8 @@ function GettingMarried() {
       </div>
       <div className='mapIframe'>
         <div className='mapIframeItem'>
-          <p>եկեղեցի</p>
+          <p>Պսակադրություն</p>
+          <span>Սուրբ Հռիփսիմե եկեղեցի ք․ Էջմիածին</span>
           <iframe
             src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3842.8720248367476!2d44.309466799999996!3d40.166998299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406a95df45ee7879%3A0x5edc387da55a163a!2z0KbQtdGA0LrQvtCy0Ywg0KHQstGP0YLQvtC5INCg0LjQv9GB0LjQvNC1!5e1!3m2!1sru!2sam!4v1727562210621!5m2!1sru!2sam'
             allowFullScreen
@@ -114,7 +115,8 @@ function GettingMarried() {
           ></iframe>
         </div>
         <div className='mapIframeItem'>
-          <p>ռեստորան</p>
+          <p>Հարսանյաց հանդիսություն</p>
+          <span>«Էլինար» ռեստորան գ․ Ակնաշեն</span>
           <iframe
             src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d961.770491802774!2d44.2918858!3d40.0925775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406ac1c2442b7739%3A0xc7e5cf7a268f251f!2z1LfVrNWr1bbVodaAINW81aXVvdW_1bjWgNWh1bbVodW11avVtiDVsNWh1bTVodWs1avWgA!5e1!3m2!1sru!2sam!4v1727562327686!5m2!1sru!2sam'
             allowFullScreen

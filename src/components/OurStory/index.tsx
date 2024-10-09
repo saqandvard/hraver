@@ -12,17 +12,14 @@ function OurStory() {
       <div className='gridContent'>
         <img src={img1} alt='image' />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor mauris
-          odio tellus sem neque, pretium sem sed montes. Enim, cursus massa nec
-          massa ultrices mauris donec id volutpat. Libero sed placerat morbi
-          proin at nibh. Adipiscing nec pretium egestas.
+          Մենք համակուրսեցիներ ենք , հանդիպել և ծանոթացել ենք ՀԱՊՀ- ում 2021
+          թվանկանին։
         </p>
         <img src={img2} alt='image' />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor mauris
-          odio tellus sem neque, pretium sem sed montes. Enim, cursus massa nec
-          massa ultrices mauris donec id volutpat. Libero sed placerat morbi
-          proin at nibh. Adipiscing nec pretium egestas.
+          Մեր նշանադրությունը իրականացել է 13 08 2023 թ-ին։ Իսկ այսօր տեղի
+          կունենա մեր հարսանյաց արարողությունը, որի պատվավոր հյուրն եք նաև Դուք։
+          😊
         </p>
       </div>
     </div>
